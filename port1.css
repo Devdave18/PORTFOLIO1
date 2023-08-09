@@ -1,0 +1,274 @@
+.btn1 a {
+    border-radius: 20px;
+    border: 1px solid white;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: solid;
+    font-size: larger;
+}
+
+.row::after {
+    clear: both;
+    display: table;
+    content: '';
+    margin: -5px;
+    padding: 0px;
+}
+
+.btn1 {
+    padding: 5px;
+    margin: 5px;
+}
+
+.home {
+    background-image: url('laptop2.jpg');
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text {
+    margin: 50px;
+    padding: 10px;
+    line-height: 25px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+}
+
+.text a {
+    text-decoration: none;
+    color: white;
+
+}
+
+#navbar a {
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px 20px;
+    text-align: center;
+    border: 0;
+    text-decoration: none;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30%;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px 1px;
+}
+
+.fa-linkedin,
+.fa-facebook,
+.fa-youtube {
+    color: white;
+}
+
+.sm {
+    font-size: 25px;
+    margin: 30px;
+    padding: 60px;
+}
+
+h1 {
+    margin: 0px;
+    padding: 10px;
+    text-decoration-color: darkgrey;
+}
+
+.about {
+    width: 100%;
+    height: 400px;
+    background-color: #f2f2f5;
+    color: black;
+
+}
+
+.exp {
+    background-color: lightyellow;
+    height: 400px;
+}
+
+.text1 {
+    margin-top: 100px;
+    padding: 0px;
+    margin-bottom: 60px;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.skill {
+    padding: 5px;
+    margin: 1px;
+}
+
+.tech {
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 7px;
+    padding: 5px 10px;
+    cursor: default;
+    list-style: none;
+}
+
+.hob {
+    margin: 2px;
+    padding: 2px;
+}
+
+.col {
+    width: 40%;
+    float: left;
+    margin: 40px;
+    padding: 20px;
+    text-align: left;
+}
+
+.card1 {
+    width: 60%;
+    float: left;
+    margin: 10px 100px 10px 250px;
+    background-color: #f2f2f5;
+    padding: 20px;
+    box-shadow: 3px 3px 4px #888888;
+}
+
+.education {
+    background-color: seashell;
+    height: 400px;
+}
+
+.project {
+    background-color: snow;
+    height: 800px;
+}
+
+.col2 {
+    width: 30%;
+    margin: 10px;
+    float: left;
+}
+
+.col3 {
+    width: 60%;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+    margin-top: 4%;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+    border-radius: 5%;
+    background-color: cornsilk;
+    font-size: 25px;
+    box-shadow: 2px 2px #888888;
+    padding: 5px;
+}
+
+.col4 {
+    width: 30%;
+    float: left;
+    margin: 40px;
+    padding: 20px;
+}
+
+.footer {
+    background-color: lavender;
+    height: 200px;
+    background-image: url('footer.jpg');
+}
+
+.l {
+    margin-right: 20px;
+    border-radius: 5%;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.col5 {
+    text-align: left;
+    margin: 90px;
+    padding: 30px;
+}
+
+.tech {
+    margin-left: 350px;
+}
+
+hr {
+    width: 10%;
+    size: 2px;
+}
+
+@media only screen and (max-width:700px) {
+    .home {
+        background-image: url('laptop2.jpg');
+        height: 600px;
+        
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: whitesmoke;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .card1
+    {
+        margin: 10px;
+        width: 80%;
+    }
+    .col
+    {
+        width: 90%;
+        margin: 0px;
+    }
+    .about
+    {
+        height: 450px;
+    }
+    .tech{
+        margin: 0px;
+   }
+   .education{
+    height: 320px;
+   }
+   ul{
+    text-align: none;
+   }
+   .col5{
+    margin: 0px;
+    width: 90%;
+    padding: 0px;
+   }
+   .col2,.col3{
+    width: 90%;
+   }
+   .col3{
+    width: 90%;
+   }
+   li{
+    width: 50%;
+    margin: 8px;
+   }
+   .l{
+    width: 100%;
+    background-color: floralwhite;
+   }
+}
